@@ -1,6 +1,6 @@
 {
     "type": "object",
-    "additionalProperties": false,
+    "additionalProperties": true,
     "properties": {
         "total_time": {
             "type": "integer"
@@ -8,17 +8,11 @@
         "href": {
             "type": "string"
         },
-        "custom_variables": {
-            "type": "object"
-        },
         "ip_address": {
             "type": "string"
         },
         "id": {
             "type": "string"
-        },
-        "logic_path": {
-            "type": "object"
         },
         "date_modified": {
             "type": "string",
@@ -57,7 +51,7 @@
                                     "type": "array",
                                     "items": {
                                         "type": "object",
-                                        "additionalProperties": false,
+                                        "additionalProperties": true,
                                         "properties": {
                                             "choice_id": {
                                                 "type": "string"
@@ -127,9 +121,6 @@
         },
         "edit_url": {
             "type": "string"
-        },
-        "metadata": {
-            "type": "object"
         }
     },
     "required": [
